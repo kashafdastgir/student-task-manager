@@ -1,6 +1,7 @@
 let tasks = [];
 const form = document.getElementById('task-form');
 const list = document.getElementById('task-list');
+const search = document.getElementById('search');
 
 form.addEventListener('submit', function (e) {
   e.preventDefault();
@@ -15,6 +16,8 @@ form.addEventListener('submit', function (e) {
 function render() {
   list.innerHTML = '';
   tasks.forEach(function (task, index) {
+    if (!task.title.toLowerCase().includes(search.value.toLowerCase())) return;
+
     const li = document.createElement('li');
     li.className = 'task-card' + (task.done ? ' completed' : '');
     const heading = document.createElement('strong');
@@ -31,3 +34,4 @@ function render() {
     list.appendChild(li);
   });
 }
+search.addEventListener('input', render);
