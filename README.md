@@ -50,7 +50,7 @@ Each feature was built on its own branch, pushed to GitHub and opened as a pull 
 2. Open index.html in a web browser.
 
 ## Screenshots
-![Final app](Screenshots/app.png)
+![Final app](Screenshots/app.PNG)
 
 ## Version History
 - v1.0.0: add task form, task list with completion and deletion, task search, styled layout
