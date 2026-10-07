@@ -31,15 +31,23 @@ Each feature was built on its own branch, pushed to GitHub and opened as a pull 
 - docs/readme-title-s2: README title fix (Student 2)
 - docs/final-readme: this README
 
-## Commands
+## Git Commands Demonstrated
 - git switch: move to or create a branch
 - git add: choose the changes to save
 - git commit: save a snapshot with a message
 - git push: upload commits to GitHub
 - git pull: download the latest changes
 - git tag: mark a version such as v1.0.0
+- git branch
+- git merge
+- git diff
+- git diff --staged
+- git clone
+- git remote -v
+- git show
+- git blame
 
-## GitHub Features
+## GitHub Features Demonstrated
 - Issues: tracked each feature, e.g. #2 Implement task search
 - Pull requests: proposed and reviewed changes before merging
 - Reviews: partner approval before every merge
